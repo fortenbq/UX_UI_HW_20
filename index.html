@@ -44,7 +44,7 @@
     </div>
   </nav>
   
-  <!--showcase section, all text will start on left side w/ exception to sm breakpoint(centered). This section will also utilize a flexbox-->
+  <!--intro section, all text will start on left side w/ exception to sm breakpoint(centered). This section will also utilize a flexbox-->
   <section class="bg-light text-dark p-5 p-lg-0 text-center"> 
       <div class="container text-center">
         <div class="row align-items-start">
@@ -55,15 +55,10 @@
         </div>
         <div class="row align-items-center">
           <div class="col">
-            <img class="img-fluid" src="/updates images/alden-intro-img.png" alt="">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-3 mb-5">
-                  <img class="img-fluid w-50" src="/updates images/project logos.png" alt="">
+            <img id="intro" class="img-fluid" src="updates images/alden-intro-img.png" alt="">
+              <div class="pb-md-5 align-items-center justify-content-center">
+                  <h2 class="">UX/UI Case Study</h2>
                 </div>
-                <div class="col mb-5">
-                  <h2 class="display-3">UX/UI Case Study</h2>
-                </div>
-              </div>
           </div>
       </div>
   </section>
@@ -74,12 +69,12 @@
     <div class="row text-center g-4">
       <div class="col-md">
         <div class="h1 bg-warning pb-5 pt-0 mb-5"></div>
-        <img class="img-fluid bg-warning p-5 my-5" src="/images/alden-placeholder.png" alt="">
+        <img class="img-fluid bg-warning p-5 my-5" src="images/alden-placeholder.png" alt="">
         <div class="h1 bg-warning pt-5 mt-5"></div>
       </div>
       <div class="col-md align-self-center">
         <div>
-        <h2 class="display-2 text-end mb-5"><span class="text-warning">Project Overview</span> </h2>
+        <h2 class="display-2 text-center mb-5"><span class="text-warning">Project Overview</span> </h2>
         <p class="lead bg-dark text-white text-end p-3 rounded">2 other UI / UX designers I were tasked with brainstorming 
           on a relevant problem that could be solved using design thinking. 
           After deliberating, we hypothesized that students who can build a 
@@ -91,10 +86,10 @@
 </section>
 
 <!--Design Process-->
-<section class="p-5 text-center">
+<section class="p-5 text-center d-none d-sm-block">
   <div class="container">
     <h2 class="display-3 pb-5">The Design Process</h2>
-    <img class="img-fluid w-75" src="/images/edipt-design process.png" alt="">
+    <img id="edipt" class="img-fluid w-75" src="images/edipt-design process.png" alt="">
   </div>
 </section>
 
@@ -126,7 +121,7 @@
     </div>
     <div class="col-md">
       <div class="h1 bg-warning pb-5 mb-5"></div>
-      <img class="img-fluid bg-warning p-5 my-5" src="/images/research-image.png" alt="">
+      <img class="img-fluid bg-warning p-5 my-5" src="images/research-image.png" alt="">
       <div class="h1 bg-warning pt-5 mt-5"></div>
     </div>
   </div>
@@ -137,7 +132,7 @@
     <div class="container text-center">
       <div class="row align-items-start">
         <div class="col">
-          <img class="img-fluid px-5" src="/images/affinity-diagram.png" alt="">
+          <img class="img-fluid px-5 d-none d-sm-block" src="images/affinity-diagram.png" alt="">
         </div>
         <div class="col justify-content-center align-items-center">
           <h2 class="display-2 text-end mt-5">Defining</h2>
@@ -146,12 +141,12 @@
             After deliberating, we hypothesized that students who can build a 
             relationship with an accessible tutor would have (more) 
             academic success as opposed to other relevant options.</p>
-            <div class="row p-5 align-items-center justify-content-center">
+            <div class="row p-5 align-items-center justify-content-center d-none d-sm-block">
               <div class="col">
-                <img class="img-fluid w-50" src="/images/Icon awesome-arrow-alt-circle-right.png" alt="">
+                <img class="img-fluid w-50" src="images/Icon awesome-arrow-alt-circle-right.png" alt="">
               </div>
               <div class="col">
-                <img class="img-fluid w-75" src="/images/Icon metro-profile.png" alt="">
+                <img class="img-fluid w-75" src="images/Icon metro-profile.png" alt="">
               </div>
             </div>
             <p class="lead bg-dark text-white text-end p-3 rounded">2 other UI / UX designers I were tasked with brainstorming 
@@ -167,7 +162,7 @@
 <!--lofi wireframes-->
 <section class="bg-warning p-5">
   <div class="container">
-    <img class="img-fluid" src="/images/lofi-wireframes.png" alt="">
+    <img class="img-fluid" src="images/lofi-wireframes.png" alt="">
     <h2 class="display-4 text-white text-start">Lo-fi Wireframes</h2>
   </div>
 </section>
@@ -176,7 +171,7 @@
 <section class="p-5">
   <div class="container">
     <h2 class="text-end text-dark">Style Guide</h2>
-    <img class="img-fluid" src="/images/styleGuide_new.png" alt="">
+    <img class="img-fluid" src="images/styleGuide_new.png" alt="">
   </div>
 </section>
 
@@ -184,7 +179,7 @@
 <section class="bg-light text-center text-dark p-5" id="features" >
   <div class="container">
     <h2 class="text-center">Features</h2>
-    <img class="img-fluid" src="/images/features.png" alt="">
+    <img class="img-fluid" src="images/features.png" alt="">
   </div>
 </section>
 
@@ -195,22 +190,21 @@
       <h2 class="text-dark text-center py-3">Final Hi-fi Prototype</h2>
     </div>
     <div class="bg-light">
-      <img src="/images/final-prototype.png" alt="" class="img-fluid">
+      <img src="images/final-prototype.png" alt="" class="img-fluid">
     </div>
   </div>
 </section>
 
 <!--Footer-->
-<footer class="p-1 bg-dark text-white text-start position-relative">
+<footer class="p-5 bg-dark text-white text-start position-relative">
   <div class="container">
-    <div class="row g-4 pb-5 align-items-center">
-      <div class="col text-start">
-        <img src="/images/logo:white.png" alt="" class="img-fluid w-50">
+    <div class="d-sm-flex align-items-center justify-content-between">
+      </div>      
+      <div>
+          <p class="lead">Copyright &copy; 2022 Queriante Fortenberry</p>
       </div>
-      <div class="col">
-        <p class="lead">Copyright &copy; 2022 Frontend Bootcamp</p>
-      </div>
-    </div>
+  </div>
+</div>
   <a href="#" class="position-absolute bottom-0 end-0 p-5">
       Back To Top
   </a>
